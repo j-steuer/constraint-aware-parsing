@@ -1,0 +1,130 @@
+USED FORMULAS:
+-------------------------------------------------
+0 True
+-------------------------------------------------
+1 ∀ expr ∈ start: (∀ use_id ∈ expr: (∃ 'int {<id> def_id}[ = <expr>];' = decl ∈ start: ((level("GE", "<block>", decl, expr) ∧ (before(decl, expr) ∧ use_id == def_id)))))
+-------------------------------------------------
+2 ∀ "int {<id> def_id}[ = <expr>];" = declaration ∈ start: (∀ "int {<id> other_def_id}[ = <expr>];" = other_declaration ∈ start: (((same_position(declaration, other_declaration) ∧ def_id == other_def_id) ∨ (¬(same_position(declaration, other_declaration)) ∧ Not(def_id == other_def_id)))))
+-------------------------------------------------
+
+VALID TEST INPUTS
+1: '18;'
+2: '{int p;{int h;h < p;}}'
+3: '{}'
+4: '4 - 4;'
+5: '6465 - 8;'
+6: '{int h;h = h;}'
+7: '{int h;}'
+8: '7 - 2;'
+9: '{int p;p + p;}'
+10: '95 - 5;'
+11: '{int h;h - h;}'
+12: '{int h;h < h;}'
+13: '50;'
+14: '1 - 7;'
+15: '{int p;p - p;}'
+16: '{int d;{int h;h < d;}}'
+17: '{int h;{int p;h - p;}}'
+18: '6;'
+19: '1 < 6514;'
+20: '37 < 6;'
+21: '{int d;{int a;d = a;}}'
+22: '95 < 777755;'
+23: '382 - 602;'
+24: '2;'
+25: '{int a;{int p;p < a;}}'
+26: '{int d;{int h;d - h;}}'
+27: '3 < 0;'
+28: '{int d;}'
+29: '{int d;{int p;p < d;}}'
+30: '{{}}'
+31: '{int p;{int h;p = h;}}'
+32: '18 - 28;'
+33: '{{int b;}}'
+34: '84 < 725;'
+35: '{{int p;}}'
+36: '{int p;p < p;}'
+37: ';'
+38: '{int h;h;}'
+39: '6 < 9;'
+40: '9997;'
+41: '749;'
+42: '{int a;a = a;}'
+43: '3 - 0;'
+44: '890 < 0;'
+45: '82 < 32;'
+46: '548 < 4;'
+47: '2 - 49;'
+48: '{int a;{int h;a - h;}}'
+49: '8173;'
+50: '2 < 8;'
+51: '{int d;d + d;}'
+52: '1449653728;'
+53: '{int p;{int a;p = a;}}'
+54: '9;'
+55: '{int p;p;}'
+56: '{;}'
+57: '37 - 0;'
+58: '{int d;{int h;d = h;}}'
+59: '{int b;{int p;b - p;}}'
+-------------------------------------------------
+INVALID TEST INPUTS
+1: '{;58 + 625 + g;}' | Formula id: 2
+2: '{;8 + c - k + k < |w = u = a = c| + e - u - n;}' | Formula id: 2
+3: 'a = 9 + h - j < |q = b = v = k = x = y = z = t = p = f = r = w = m = e = o = n = c = i = u = l = d = g = s = 74 - 672 - 9510|;' | Formula id: 2
+4: '{int h;{int h;{int h;{int h;h;}}}}' | Formula id: 1
+5: '{int a;{int a;a;}}' | Formula id: 1
+6: 'h = |p| + |a = f + |o = v| + x + u < r + u| - |i| - 4 + i;' | Formula id: 0
+7: '{;int h = g = 369380 + |3 + 22 + t + |9| + b + 6 < |4 < |b = r = 7 < 81 + r| + |g < r + h| + |c| + 4 - f| + 99 - n - 9|;}' | Formula id: 2
+8: '{int h;{int h;h;}}' | Formula id: 1
+9: '{;q - 8;}' | Formula id: 2
+10: '{e = h < |l = d = r = e = j = 64| - 7;}' | Formula id: 2
+11: '{{j = m - i - 81842 - 0 < 2439460 + b;}}' | Formula id: 2
+12: '{int a;{int a;{int a;{int a;{int a;a;}}}}}' | Formula id: 1
+13: '|e + s < d - q| - |b| - r + 71 + p + m;' | Formula id: 2
+14: '{;|r = |w < 3 - |1 - 8|| < |q - f - 78151934 < l|| < o;}' | Formula id: 2
+15: 'b = p = w - t - t;' | Formula id: 2
+16: '{{f;}}' | Formula id: 2
+17: '{493 - |z = u| - 3;}' | Formula id: 2
+18: '{m < |||s = i - y - u| < |k = r = r| + |u + q| - v - j| + 8|;}' | Formula id: 2
+19: '{c + o - m < n + l;}' | Formula id: 2
+20: '{int a;{int a;{int a;{int a;{int a;{int a;a;}}}}}}' | Formula id: 1
+21: '{;int h = h = m = t = |s - f + m < h| - |j| - o - |v| < j + 7 + |l| - p - p;}' | Formula id: 2
+22: '{{l < f + 6;}}' | Formula id: 2
+23: '{;|k + a < r - f| - |q = y < g| + 15 + d;}' | Formula id: 2
+24: '{int a;{int a;{int a;{int a;a;}}}}' | Formula id: 1
+25: '{;f = d + 8 < u + w;}' | Formula id: 2
+26: '{y = h + y + |g = k = j| + a + g + i + |2 - y < l + m - y| - i < |m = e = q = w = f = l + 4416 - 4 + v + |s||;}' | Formula id: 2
+27: '0 + p - |4 + o + x - t < t - |d| + r| - |7 + ||p| + t - k < t - b||;' | Formula id: 0
+28: '7 + w + a;' | Formula id: 2
+29: '7 + w + a;' | Formula id: 0
+30: '{int a;{int a;{int a;a;}}}' | Formula id: 1
+31: '{int h;{int h;{int h;{int h;{int h;h;}}}}}' | Formula id: 1
+32: '{;||w - a < 2 - v + r - e|| - o < n + s + |y| + |w| - k - q;}' | Formula id: 2
+33: '{{t = k - u - 0 + |c = d = |t = |g = s = |c = m < 90| + ||t - e < r| + |l = z = f| < 0 + 3 - n + q - r||| + l - w| + k - 6 + j < i;}}' | Formula id: 2
+34: '{;25 - h < 9 - |n = e = g = 8182 + x < c - t + q| + 8 - 37;}' | Formula id: 2
+35: '{o = 6 + 63 + q + s - z < |x + a < t| + 800 - |a| - c;}' | Formula id: 2
+36: '{;w = v = t - o < 91113057905 + k + |u = 174 + z < |l = 8 < |s = v = q = |i = w = d = w| - d - p| - 88| - o + 15 + 9 - 7 - 933 - 8 + |5 - 1 + t < e| + 3 + q| - q;}' | Formula id: 2
+37: '{{e = ||j - w| + y + 68 < 1| < 32 + t - j - 78 + c - 5 + z;}}' | Formula id: 2
+38: '{u = 8 < |g = 6| - |l - s| + 389565 + e + 34;}' | Formula id: 2
+39: '{u = w = p = f = m = j = q = h = y = k = g = b = 21 + z < k - o + |l| - t;int c = x = s = e = o = r = i = z = n = v = a = x = y = d = s < 4 + b;}' | Formula id: 0
+40: '{{m = b = e = a + 2 - 9 < t + |19 < 63 + |y = |e = 133173 - 90|| - u + 475| + b + w;}}' | Formula id: 2
+41: 'l = t;' | Formula id: 0
+42: '{{o = n - i < |k = ||w| + 60 - x + z < g| + b - |h + f < p| + p|;}}' | Formula id: 2
+43: '{int h;{int h;{int h;{int h;{int h;{int h;h;}}}}}}' | Formula id: 1
+44: '{;|c + j + w < w + c + x| + 45 - e + 81 - z - u + o;}' | Formula id: 2
+45: '38 + 41 < 86 - 53 - 2566 - a - q - 779 + |x = |r = 0 + y|| + 68 - |411 < 7 + 33| - |u = m = |f = b = l = r - |d - 0 + 43 - ||b = a = h = |y = u|| < ||w| + h < f + c| + 20 + |u| + n||| < |i - 6| - 159|;' | Formula id: 2
+46: '||j = 3| - q < m - |z - 8 + ||u - c < n| + v + p - c + r| < |y = x = k - b + t < i + q||| - 2043;' | Formula id: 0
+47: 'h - |7| - p + 5 + |l = |s = 9| + |y = |e = w| < 70 - q| - |g - |d|| - c - f - i + z|;' | Formula id: 2
+48: '88 - |||t = a| + l - i| - 81 - |g + l| - 3 < |d = |j = f = n = l = 8 < |x = n||| - b| + n;' | Formula id: 2
+49: 'f = s = ||c| - 84 - |u| - g - x| - |s = a = q = d < u - j + a| < |1|;' | Formula id: 2
+50: '|u = |f| + 4 + g < |o| - h + n| < 5 + 6 + p - |p + o| - g - 7;' | Formula id: 0
+51: '{r = p = v - |x = 1692 - |l - l < ||f| - |i| + h - h < ||n| + x + m||| - |s = z = x = v = u = 4 + |b| - |w| - q < a| < p - f - e|;}' | Formula id: 2
+52: '{int h;{int h;{int h;h;}}}' | Formula id: 1
+53: '{{z = s = m + 7 - 0 < |k = w = |||p = u = u = s = t = |z| < k + |a| - e| - f|| < |l = |z = j = 28| - 0 - 110|| + i;}}' | Formula id: 2
+54: '{c + q < 63220 - 0 + |v = i = |87 + |v < x + d| - o - h < |f = b = g = a = u = n|| < 25 - a| - y - 78;}' | Formula id: 2
+55: '{{y = c = 82 - c;}}' | Formula id: 2
+56: '{int m;int e = 43 - 692 + 78971335538;int m = 860;}' | Formula id: 0
+57: '|||t = t = t| < 2 + |s = b| - i + c| - |z = i| - |q||;' | Formula id: 2
+58: '{{i = d = 5 + t < |59| - j;}}' | Formula id: 2
+59: 'e = |q < |w = d = 555 < 6336 - d + |e = z + 832 + 4| - |j = r| - 544 - |7367 < 2 - |n = x|| - |r = h + i + 28 < 6 + |e < o|| + g + 34|| - c < 655;' | Formula id: 2

@@ -1,0 +1,232 @@
+EVALUATION RESULTS
+VALID RESULTS:
+Test 1: '|8wGP|;|TZ|;|la3JRwJq| CP;|4|;kX |7|;E;n ': ISLa: 0.08029391600575764 | Parser: 0.04108387698943261
+Test 2: '|CGD|;|6| 3;f ': ISLa: 0.04762035199382808 | Parser: 0.03792236899607815
+Test 3: 'Rob;|e5|;|rZ|;|y|;|S| |l6Y|;iUsu;H;|iUp|;|R| ': ISLa: 0.07695962399884593 | Parser: 0.04115471900149714
+Test 4: 'Wv9;|w|;ei Ws;|J|;b |Y2o|;Co;|cRn| ': ISLa: 0.1613152270001592 | Parser: 0.03992270700109657
+Test 5: 'b;|fD|;T2 |PrW2|;|b|;kuqQ t;|4|;0 ': ISLa: 0.069457894001971 | Parser: 0.04015627599437721
+Test 6: 'P;|P|;KW;Eqee;|uhY| Kp;3A4BouLcr;s;b;7vfW R;|tv|;|gCV|;|2|;|v| |o|;J;GR;|zo|;|olSM| ': ISLa: 0.12643355599720962 | Parser: 0.049377228002413176
+Test 7: '|gcw|;F |0|;s WGR;Nt |PTZQ|;|Z| |R|;|m| ': ISLa: 0.0754385370091768 | Parser: 0.04181922099087387
+Test 8: '|6|;M;Mesn;MM46 B;|XUc|;|L|;|8H| |l|;b;|xQ|;l 6;|rVC|;|4XMv2|;|jRZJc| ': ISLa: 0.10521720600081608 | Parser: 0.046954033998190425
+Test 9: 'cp;|J|;|cHoR|;S8c |s7IX|;|23nWnL|;e;|qY| |hD|;tz;uC;WnlS0 ': ISLa: 0.0962060440069763 | Parser: 0.04474091899464838
+Test 10: '|OT|;|C|;Pl;|q|;ALc |5|;|e|;hC;JgL;|IMa| L7Gt;LvZ;|Foc|;|6|;7 ': ISLa: 0.19743721099803224 | Parser: 0.0448333590029506
+Test 11: '|e5zFVsW6ZMv|;0 |H|;|6OU| |E|;5 T;|V| ': ISLa: 0.07722919901425485 | Parser: 0.041739453008631244
+Test 12: '8E;|Z|;t8 |Z|;ZUKliF;H ': ISLa: 0.06040940301318187 | Parser: 0.03809793099935632
+Test 13: 'A 2v9 Ln |p| ': ISLa: 0.05198370199650526 | Parser: 0.03707314599887468
+Test 14: '|dN|;b;|HU|;G0 |e|;|u|;d;|Il| 5;j3I;p;|L01g| ': ISLa: 0.07899681400158443 | Parser: 0.04161215700150933
+Test 15: '|tA|;ZRhp GUf;E ': ISLa: 0.05381574700004421 | Parser: 0.036668619999545626
+Test 16: '|R| |VlzgnQ| ': ISLa: 0.04927413498808164 | Parser: 0.035896638000849634
+Test 17: '8;|G|;|M|;n m;P;|H|;0W |V|;|qr|;H;|xMb| ': ISLa: 0.07288528900244273 | Parser: 0.04156414199678693
+Test 18: '|7|;4;|R|;SLHZr;O0 26ylvBG;RZ;|YQ|;M;|2b7| |ws|;|CE|;|v|;n4;|m| SY;wx;|4p|;|h|;3x |hru|;|CBY|;|Ji|;|W|;|VM| ': ISLa: 0.1430905419983901 | Parser: 0.056981013010954484
+Test 19: 'g VC k 6 |6| ': ISLa: 0.05090210499474779 | Parser: 0.03814456700638402
+Test 20: 'E2;A;|cd| |Slw89V|;|1U|;G OUJ1;d;|s| s2;5yhoa;HonW ': ISLa: 0.09378893399843946 | Parser: 0.1544374869990861
+Test 21: '|h3d1|;A |m|;4f |Q4|;|h| U;yB8 ': ISLa: 0.06669176000286825 | Parser: 0.040012633995502256
+Test 22: 'gH;|m9|;|M4| Q;|n|;3m YJ;0;|2| 0U;|4|;qyy ': ISLa: 0.07785379599954467 | Parser: 0.04272142700210679
+Test 23: '41;3J |hu|;|J| xLp;|N| ': ISLa: 0.05925989701063372 | Parser: 0.038246071999310516
+Test 24: '|7FFq|;y;|Q|;jk;|L| 9;Ib;|kM|;|uU|;g L;|A|;|T|;|T|;|9| |et|;1q;|Q|;Q2;5 b;D;Lv;a33;|b| ': ISLa: 0.1216609280090779 | Parser: 0.05346580900368281
+Test 25: 'KvN;|l| C;u |o|;m2zk |e4e|;|D| M;|R9| ': ISLa: 0.07452518299396615 | Parser: 0.04237815400119871
+Test 26: '|jCb1|;S;b |u|;xYNE;|h| |Z|;gzQaDp;|kN| |7|;mV5di;hbd |YeD|;j;T |8|;|r|;|a| ': ISLa: 0.11395577099756338 | Parser: 0.049492514997837134
+Test 27: '|g|;|bz|;iLJ 2;F;|9e3| ': ISLa: 0.05833320198871661 | Parser: 0.03818235399376135
+Test 28: 'z;B;|5| |r|;|do|;|MAId| c;|fbqm|;0 h;N;|Rm| ': ISLa: 0.18144532799487934 | Parser: 0.04234052001265809
+Test 29: '|7| |zl| |o| |jp| ': ISLa: 0.05195545600145124 | Parser: 0.0399233810021542
+Test 30: 'X;lDpcoD;|uhq|;GY;Tj |p|;J6;Op;|O|;|8| v;|T|;mgvk;|4g7p|;|f| ': ISLa: 0.0983961080055451 | Parser: 0.045584715000586584
+Test 31: 'XK e ': ISLa: 0.043509404989890754 | Parser: 0.034750898004858755
+Test 32: '|Je| mx4Ppo2 hRW 2 ': ISLa: 0.05887395500030834 | Parser: 0.04130090799299069
+Test 33: 'wu;Iwn;|0| x3n;|J|;|2o| d;t2;Mp6 0p;|z|;gO |v|;|d3a|;D DW;|r|;|yY| ': ISLa: 0.10313273500651121 | Parser: 0.04944636899745092
+Test 34: 'F;|5| |iZ|;|ebA| 0;PPSVABK 0R;q |Ahsh|;Y ': ISLa: 0.08091752900509164 | Parser: 0.04308535899326671
+Test 35: 'O;|D|;LO |r|;bw;|q| ': ISLa: 0.055415267997886986 | Parser: 0.03822397199110128
+Test 36: '|q|;|mM|;3P;B;|i| |M|;|e|;|lPw|;|kX|;|n4AF| ': ISLa: 0.07394616398960352 | Parser: 0.0413447949977126
+Test 37: 'wE;|A2PEYy| |t1|;I |f7|;|w| |b|;nOqz3 ': ISLa: 0.17922453000210226 | Parser: 0.041842485006782226
+Test 38: '|S|;08so;|aYp| X;|3|;Mt X;eE;E ': ISLa: 0.06842068200057838 | Parser: 0.04196600499562919
+Test 39: 'G1Gyh;|PxI| |2w|;NUB a;r ': ISLa: 0.062418109009740874 | Parser: 0.04166070699284319
+Test 40: 'o;Y R8;N ': ISLa: 0.04556833300739527 | Parser: 0.03623694799898658
+Test 41: 'fFD;3;|w|;d;C 0Vj6;|1i|;|BO|;|h6|;Ad ': ISLa: 0.07857514599163551 | Parser: 0.042191202999674715
+Test 42: 'D;|L4esK|;|V|;|f|;|jyRh| LqO;|f8|;Ot;Z;|3Avr| s;PD;|EMD|;|yysr|;|Y| ': ISLa: 0.10749290000239853 | Parser: 0.05000722499971744
+Test 43: 'WF |1| u ': ISLa: 0.04909578000660986 | Parser: 0.040032306002103724
+Test 44: '|f|;|63| |m|;|O| Hk;r ': ISLa: 0.059294079008395784 | Parser: 0.04476554399298038
+Test 45: '|P|;|WHO|;|B| |jh|;w;|6p| tcp;|VDL|;uB k7qs;|KH|;|rrx| |j|;|X|;Uc ': ISLa: 0.10967547399923205 | Parser: 0.053035650998936035
+Test 46: '|c3| XbqZHOD3 |iaS| y ': ISLa: 0.07192191499052569 | Parser: 0.04318147599406075
+Test 47: '|C5| IT |7Zg| ': ISLa: 0.06319541300763376 | Parser: 0.043726161995436996
+Test 48: '|QQ| kpPaG ': ISLa: 0.05262871900049504 | Parser: 0.043347222002921626
+Test 49: '|r|;u |K0bT|;|Y| |Nad|;HD |f|;C |aZ|;|04p| ': ISLa: 0.20596387700061314 | Parser: 0.08365548800793476
+Test 50: 'X;VN;7eJFFxL |l|;|9sDuI1de2|;Ae |wT|;i;l se;|7|;KY |ewY|;5;h |1S|;|ihY9|;|dY| ': ISLa: 0.14591028100403491 | Parser: 0.05503113199665677
+Test 51: 'z;a;|4| |1|;|K|;J3 |5V|;4;i xB;m;T ': ISLa: 0.07821146199421491 | Parser: 0.04690609499812126
+Test 52: 'a;|g8GzD5|;TA;z1;0 RY;g;Kcem;|m|;nkd0A l;|MssZ|;iI;|Q|;|AH| |g|;5;|s|;|2|;|S| ': ISLa: 0.12884226300229784 | Parser: 0.055217836998053826
+Test 53: 'B |ACeu| W |SROkyhsGr| |T| ': ISLa: 0.07976048500859179 | Parser: 0.10968804499134421
+Test 54: 'o;|g|;|9|;|h|;Z8hjFutyw3 I;JB;|b|;|MI|;m ': ISLa: 0.20517335100157652 | Parser: 0.11022292899724562
+Test 55: 'eJU;|s9Nsu|;GhDK w;PriqRc;|cgwN| |z|;|Op6|;NI ': ISLa: 0.44373035499302205 | Parser: 0.10639316400920507
+Test 56: 'R;Y;|aA| |Uue|;s;T D;e;r |SbEz|;bYx;B ': ISLa: 0.19655586800945457 | Parser: 0.11293966400262434
+Test 57: '60p;|fl| g;|F| |y|;|p0| omq;|B| Q;E36 ': ISLa: 0.1863772840006277 | Parser: 0.11753860999306198
+Test 58: 'f8 2 ': ISLa: 0.11810955998953432 | Parser: 0.09737628800212406
+Test 59: 'P5 |T2V| e ': ISLa: 0.1315740899881348 | Parser: 0.08726619099616073
+Test 60: '|e|;|L| v;|f| |K|;|d| ': ISLa: 0.06121015999815427 | Parser: 0.04218001299886964
+Test 61: '|pgg|;|yTJ3| N;q I;|o| |t|;GG d;|gfwL| ': ISLa: 0.08388686800026335 | Parser: 0.04777853201085236
+Test 62: 'P4M;iDYJ;|Jb|;|KW|;k |F|;E;|Q|;n;VmRx |3|;9;E;|ZnBP|;S |ZI1|;FWp10n;|T|;I;xwG 0Wha;|0WHKg|;|O|;R;dV ': ISLa: 0.16093407799780834 | Parser: 0.0606087589985691
+Test 63: '3S;|T5iUlpU| |nv|;S O;m |8pI|;|r| ': ISLa: 0.19617599199409597 | Parser: 0.046094227000139654
+Test 64: 'DI;|W|;|zP|;xEkxBf9c Tl;|zN|;ft;|X| |L3|;u60XBn9;1;|Z| |r4Sf|;|BO|;|p|;Nv ': ISLa: 0.12626806100888643 | Parser: 0.05497101398941595
+Test 65: 'rX;|Vv|;|e| f;HiVg;|k| |At|;S;|gD| u;NgM;|XH| VpS;|H3|;X ng;|n2Z7|;T ': ISLa: 0.11296841000148561 | Parser: 0.050411017989972606
+Test 66: '5gC;|q|;|e|;|1|;m6PIQOe Nr;u;|u|;|9T|;|V| WF;|eY|;|cT|;G;|l| |4|;L;NH;|O9|;|76o0| ': ISLa: 0.12208423900301568 | Parser: 0.05117794399848208
+Test 67: '|0| |Wf| |h| |0Z| ': ISLa: 0.05742895501316525 | Parser: 0.04717056200024672
+Test 68: 'Y;0d;|gJ|;YZ |XQ|;zUkp;|2|;|j| A;|t|;|J|;I |93|;|V2|;hGBI;|S| E;|IRY|;b;h ': ISLa: 0.11267420600051992 | Parser: 0.05190897099964786
+Test 69: '5;n ShF;N D;|0| |n|;4 OQ;|g| ': ISLa: 0.1899456840037601 | Parser: 0.043286896994686686
+Test 70: '|O2| H GCl N ': ISLa: 0.054111642006319016 | Parser: 0.03948504799336661
+Test 71: 'u;U;|h| |GYwT|;R;FwTU ': ISLa: 0.05991902000096161 | Parser: 0.041675962987937964
+Test 72: '|J|;|v|;PV W;|2sj|;|V| B;|Cv|;p3H YalK;|W|;j7E1 |YXjCp|;M;|4f| ': ISLa: 0.10990983500960283 | Parser: 0.04836241900920868
+Test 73: 'u;uF;|s| k;vM;|FcALK| |W|;M;PCuX05 |od|;|7a|;dEL |iM6|;h;|W| TZk0;8;xjA ': ISLa: 0.11726216498936992 | Parser: 0.053781629001605324
+Test 74: '|Q8Wy| |Q| L ': ISLa: 0.0510352739947848 | Parser: 0.04139244199905079
+Test 75: '|r|;N9 |cj|;5 A;VR ': ISLa: 0.058753549004904926 | Parser: 0.04642324399901554
+Test 76: 'p;|De|;V;s |Sy|;u;DvI;|e| kE;Ip;|VU|;|qDw| |5412|;A;|Gd|;a ': ISLa: 0.09884304700244684 | Parser: 0.0482151219912339
+Test 77: 'h v 336dZRr dw84 ': ISLa: 0.06217703899892513 | Parser: 0.04517400900658686
+Test 78: '|7x| 9du |s| e 12 ': ISLa: 0.06264846900012344 | Parser: 0.04247982701053843
+Test 79: 'lfA;|26X|;|jm0|;|3| 6;Xc;xO0M;oN O;JqDe;Zi;|1| |0wI|;qJj;2Y;AKs |f|;|M|;|d|;|s| ': ISLa: 0.25195303501095623 | Parser: 0.1247170550050214
+Test 80: '|6hbGV1q|;|dl|;|0|;r |PznJ|;|T|;|hlG|;|e| |Ol|;|d1Avxde|;|5T6|;p |R|;g;8;X ': ISLa: 0.26570948099833913 | Parser: 0.11363279299985152
+Test 81: '|zD|;MLw;|T|;n |7m|;q;ln;5 5;|v|;Z;XeZhgm |K|;|SsP|;AZWs;ew prEzS;Fp;Ctei6;|b| ': ISLa: 0.30847736599389464 | Parser: 0.12415644299471751
+Test 82: 'd;|n|;|q|;|J|;Z |H6GLf|;|X|;E;|k|;|UE| Y;G;i;t6;8s ': ISLa: 0.21040682499005925 | Parser: 0.10820197299472056
+Test 83: 'B;|P|;8;|7H0| |B|;|5|;|Cd3|;0G zR;|3|;2D;f 8cD;Bl;|TUGpl|;CBi |y|;l;N;65k ': ISLa: 0.4695379350014264 | Parser: 0.11966636699798983
+Test 84: 'FPw |9| xlI 8m ': ISLa: 0.13186246000987012 | Parser: 0.04341180001210887
+Test 85: '|d32t|;|r|;r L;x;|Q| JQ;U;F |9F2|;AC;v |2ij|;|4i|;lTTeN |BC|;6mH;|B| ': ISLa: 0.11295515100937337 | Parser: 0.050027677993057296
+Test 86: 'K;a;S;|J|;|JE| 9;R;|1v|;p;|oR0| ef;|Z|;Eg;|BOi2|;|OB5| ': ISLa: 0.09484166899346747 | Parser: 0.04788263200316578
+Test 87: '|1UTqP| O ': ISLa: 0.04774408800585661 | Parser: 0.036131315006059594
+Test 88: '|6|;uc |7r|;a |I|;|z| m;m ': ISLa: 0.06261810900468845 | Parser: 0.039687843003775924
+Test 89: '|a|;o;s a;d6;|r| ': ISLa: 0.05410179999307729 | Parser: 0.038201839008252136
+Test 90: 'o n |A| Qe |KQRsom| ': ISLa: 0.06125262100249529 | Parser: 0.040907506001531146
+Test 91: '|m|;j;u bBpp;|b|;F ': ISLa: 0.05719404800038319 | Parser: 0.03964483999880031
+Test 92: 'Z;|0a|;O |jL9du|;|l|;|C| |O4|;|h|;eQL ': ISLa: 0.07635294100327883 | Parser: 0.04454104400065262
+Test 93: 'SD;|1u|;|h|;uU8;T |o|;NTIZ;p;o;0b NH5;|fF|;V0gU;|kx|;|A| ': ISLa: 0.20528350700624287 | Parser: 0.047265069995773956
+Test 94: 'Ys;|E| xT7REQhgl;|tp| S;|beL| ': ISLa: 0.07007408399658743 | Parser: 0.0426040290039964
+Test 95: '|7Y| e Tb |e| fb ': ISLa: 0.05603571100800764 | Parser: 0.040071343988529406
+Test 96: '6;b8f2;|W|;|y|;1 |p|;|pn|;|sF|;|W|;|Vy6| 4;7;|v|;LNL;|q| 0;|zW|;|1|;|Q|;e |V|;|ii|;|h1cq|;|3|;|5VO| ': ISLa: 0.15103408000140917 | Parser: 0.055681519996142015
+Test 97: 'UCT;|U|;miai9;UsBC;b r;|5hJlRu|;FMG;2yF5Y;|Yd| M;|Q|;|k|;|rD|;v D;|oF|;wW;|q|;6p |sc|;M;|CU|;|Sw|;KtLT ': ISLa: 0.15166246399166994 | Parser: 0.0554136440041475
+Test 98: '|qJhx|;|y|;ou;1oKN1 Xb;rOWK;|H|;|eO| |1CP|;|m|;|yF|;A 8;|W|;|Uf|;8 eZ;B;|G|;|cl| ': ISLa: 0.11714505100098904 | Parser: 0.15928227099357173
+Test 99: 'g;|SLVJ|;|T|;|W| |N|;Ld;Mtu;cdA |7|;L;EY4H;hm |Gq|;|iGenHW|;O;Sn0 ': ISLa: 0.1050789050059393 | Parser: 0.04711480000696611
+Test 100: '|ga|;|OKtTmaI|;|g| |8v|;|cR|;wQTVQ 0;y;w 8;|u|;NRfx |jSO|;|Eae|;|Gx| |pGNMUqxZ|;2;UX ': ISLa: 0.1283322439994663 | Parser: 0.05348144698655233
+Test 101: '|m5STk|;|VI1B6K|;|8x|;|E| w;|k|;I0;v Cl8;|n|;|S1ci|;yS00E |c|;|8|;|1|;|Gc| v;|3d|;|4|;m ': ISLa: 0.1252801179944072 | Parser: 0.05187740799738094
+Test 102: 'pF;|UU|;Ks;81 |ZjM|;l9;|nEhkt|;|D9T| |DZ|;yx;1x;7tT ': ISLa: 0.0903164060000563 | Parser: 0.04440936300670728
+Test 103: 'EMLe7;|JXu|;j;s |NV|;|n|;g;f R;|W|;Q;|s| |jT|;Q;Z;|QVK| ': ISLa: 0.19875987400882877 | Parser: 0.04613161900488194
+Test 104: '|M| 5C7UN Q ': ISLa: 0.05175026699726004 | Parser: 0.03710156500164885
+Test 105: 'X;6kP H;fJQ ': ISLa: 0.04951834099483676 | Parser: 0.03696694898826536
+Test 106: '|Ev|;I |WzVr|;dxi |9j|;|lGGwLHWG| ': ISLa: 0.07330803599325009 | Parser: 0.04113605301245116
+Test 107: 'hm;G;|w|;|85zM1|;2h U;h;|7|;|K|;|R3| ': ISLa: 0.07346763400710188 | Parser: 0.042437470008735545
+Test 108: '|DG|;z;PI i;x;|Z| J;le;|Zq2| |Y2|;|I|;KR |qYsW|;|lx|;fLI H;|U|;v ': ISLa: 0.10216774299624376 | Parser: 0.050153282994870096
+Test 109: '|W|;|FTMF|;UF 2T;0;|M| Le;e;h2 3;|6|;G ': ISLa: 0.07742227900598664 | Parser: 0.04366079700412229
+Test 110: '|Z|;|j| |kO8H|;|U| ': ISLa: 0.0529564210009994 | Parser: 0.03732555199530907
+Test 111: '1 jV |33D| ': ISLa: 0.04783288300677668 | Parser: 0.036608900991268456
+Test 112: '|87|;|wsl|;|2v| L;|t|;|9| |oBe|;M;PU ': ISLa: 0.0706706769997254 | Parser: 0.043216395992203616
+Test 113: 'w7;Q r;|TEB| jP;|VpP4eO| |x|;v ': ISLa: 0.0694535529910354 | Parser: 0.14599813599488698
+Test 114: 'F0;lW;|f|;L 1;i;U;|c| |8|;|S|;2;o ': ISLa: 0.07000170000537764 | Parser: 0.0416852139896946
+Test 115: '2Y;Jp;w;|w| |S|;tg;|t|;|a| D78;OmJu;|8|;eZ0eP4 l7aS;nu;|e|;|b| ': ISLa: 0.10612774800392799 | Parser: 0.04827723199559841
+Test 116: '|wr| jZN6 |O| F |u| ': ISLa: 0.05772426699695643 | Parser: 0.04209724000247661
+Test 117: 'X;61oC;Hx |uYn|;3;uQ ': ISLa: 0.05835828300041612 | Parser: 0.038509912992594764
+Test 118: 'dC |M| Jf ': ISLa: 0.04924088499683421 | Parser: 0.037005576014053077
+Test 119: '7hJGZL;a LaK8;M ': ISLa: 0.05492081100237556 | Parser: 0.0407863550062757
+Test 120: '|fx|;|G9|;|DG|;|9K8|;KPn 0;R;|T|;|k|;|lN| u;jLX;s;|MaL582Vl|;n3zL j;|t0|;|nXN3|;kw60lj;brd |V|;XW;B;|T|;|dz9| ': ISLa: 0.15232479901169427 | Parser: 0.05824801299604587
+Test 121: 'h;X;la |87|;8W3o;|2| Rke;|V|;|e| bm;BKw;|p| |q|;|Q|;|ehc| ': ISLa: 0.09397449299285654 | Parser: 0.046517841998138465
+Test 122: 'pXQ H |V| |0x| ': ISLa: 0.15925567400699947 | Parser: 0.038840667009935714
+Test 123: 'vLm8kg;|h|;p8a;w;|K| |Dj|;ImLHyDvhB;y;|t|;COzZL |9c|;u7X;R;|8|;Hj 8BwTz2;|LrRb|;j;|lL|;|n| ': ISLa: 0.13936916099919472 | Parser: 0.05183101800503209
+Test 124: 'x;|s9|;8eW;K;T eJ;|2y|;|N|;Z8Lq0;T ': ISLa: 0.07411979899916332 | Parser: 0.0425284289958654
+Test 125: '|WA|;pc;J |IV|;f;c |r|;|h|;|sD| F;|Bk|;G5 |iN|;|5WS|;|KkMk| ': ISLa: 0.0935969519923674 | Parser: 0.04752091399859637
+Test 126: 'n;|5| |M9|;|M| ': ISLa: 0.04844584100646898 | Parser: 0.03744576500321273
+Test 127: '4y;Ry rx;|3| n;fcl ': ISLa: 0.0581997080007568 | Parser: 0.03855458999169059
+Test 128: '|f|;tb;|zk| X5nh6;IGx;|HO| ': ISLa: 0.06457214499823749 | Parser: 0.0397895219939528
+Test 129: '4;|qVD|;|mAX|;aw;|Cp| 7;|5|;CC;|q|;|IM| Rnbc;|qJ|;|5bIx|;|AT1|;t Z;|Ug|;JC7a04;|v1Q|;6 |C|;|IUj|;a;|aVrECG|;|R| ': ISLa: 0.273267176002264 | Parser: 0.06157749598787632
+Test 130: 'irX0;89U0 |h|;|K| |d|;|H| R;E |x|;|z| ': ISLa: 0.0752433919988107 | Parser: 0.04436957299185451
+Test 131: 'v5;|Saz|;Wr;Z |Sp|;|D|;|Kaz|;PnmF |k|;F6;|nnWS|;q ': ISLa: 0.08552613299980294 | Parser: 0.04402650399424601
+Test 132: '0zDqzYB;|f| H;fIADE h;|iw| ': ISLa: 0.0703522760013584 | Parser: 0.03892930399160832
+Test 133: '|PrRgGP|;|urZGk|;|5|;v5oo;R |g|;|ed|;6wu;|u|;|7j| |hq|;|5hJ8|;I;O;|u| |0jeiY|;5;qM;5;|6| ': ISLa: 0.12714331099414267 | Parser: 0.050933423000969924
+Test 134: '|dU|;|8xtM|;|b|;|L|;|3ZG| 3;|9dA|;|KV|;0dkXGCU;vY e;|B|;RlvrT;eu;|bsV| ': ISLa: 0.1296104149951134 | Parser: 0.05310844999621622
+Test 135: '41k;|k1|;7wlubQ;H8d qXD;t;9K;|K| |N3|;|gt|;yB9;|G| |qE|;mV;|T|;|J| g7;|oB|;dn;9 ': ISLa: 0.23376217800250743 | Parser: 0.05208769699675031
+Test 136: '|M|;|s|;|p|;VX;|o| ndx;|5|;IRS;|Wo|;VT LY9;|nz|;1;p;9 |a|;|B|;uj4;|gYtW2|;|J| ': ISLa: 0.11426341701007914 | Parser: 0.04998458700720221
+Test 137: 'EsV;8;xM 6;s;|G| T;AG;gj A;|4|;|ku| |eC5Hr|;sX;5b |6w0t|;|w|;|4L| ': ISLa: 0.10616025798663031 | Parser: 0.048912265003309585
+Test 138: '|q|;|2eY|;|M|;|t| |a|;|Wm|;|c|;|R| ': ISLa: 0.06394828000338748 | Parser: 0.041617198003223166
+Test 139: '|TEF|;|fa|;|YjOHP| cF6;|U6|;|w| ur;5;|eD| |uV|;6;HH ': ISLa: 0.08651456399820745 | Parser: 0.04522041000018362
+Test 140: '|AH|;e;|H|;|e|;9HK |fZkT7|;|D|;|4P|;PJ;|f| BaOS;|uYQb4|;|t|;|Q6|;|jq| LNd;Mh7;2G;F;33c |vXf|;IP;|3w|;|Eb|;oK ': ISLa: 0.2545649620005861 | Parser: 0.05740667600184679
+Test 141: '|m|;|la|;bD;|xG| S;|pANs|;|E|;|M3| GDFm;os;|t|;b9xLp |A|;Ch;|t|;|2| ': ISLa: 0.10193037999852095 | Parser: 0.048761591999209486
+Test 142: 'ew;vYZA;|qV| |h2|;kMs;|nC6Yl| U;|M|;|w9| AP;x;A h;TT;|p| |R8|;|iF|;v ': ISLa: 0.10909774000174366 | Parser: 0.050141193001763895
+Test 143: 'Lyg;|BG| w;|b6| ': ISLa: 0.05255197500810027 | Parser: 0.03746048999892082
+Test 144: '|AZ|;6;y UHd;|l|;kG |13E|;|c|;|3| ': ISLa: 0.06846225098706782 | Parser: 0.04139992700947914
+Test 145: 'b;e;Da;K8wbSVX 4S;|QrT|;|E|;|U| |X|;XX;|PBF|;|M| ': ISLa: 0.0862005200033309 | Parser: 0.044317649997537956
+Test 146: '|O|;M;|b|;|n|;a |3|;|qipzcY|;|i|;Po;|z| |CQ|;v;|OZtxf6|;|wH8I|;E c3aM;3;VaKH;|3|;|rf| |7|;sP;bg;|fo|;n ': ISLa: 0.2518873929948313 | Parser: 0.05504404399835039
+Test 147: '|qYF|;n;n;|6m| Cb;|iF|;7;|w| eF;|xYc|;r;g |iW|;X;B;V |kaCL6|;TH;|U4|;jen ': ISLa: 0.1118499360018177 | Parser: 0.05194297499838285
+Test 148: '|0|;|rzI|;|3|;|p| |lJ|;|P|;|9|;|iNg| ': ISLa: 0.06874020799295977 | Parser: 0.04282105299353134
+Test 149: 'L;|y|;|XI|;|O|;|ZA| IF;|d|;L;n;Qk |SWG0|;2;V;|E|;8g |jHl|;Z;CZ;|v|;32 ': ISLa: 0.1109327169979224 | Parser: 0.050928997006849386
+Test 150: 'Wf;EW;|M| |D|;|vXC|;|ez5| Gb;|UZ|;MK FXYM9xI;|o2|;6 ': ISLa: 0.09538623600383289 | Parser: 0.047591972004738636
+Test 151: '|D| JK p |N| J ': ISLa: 0.05539066898927558 | Parser: 0.04309232201194391
+Test 152: 'f;|o|;W;|tgw1g| HFj;|3|;B;|3haI| ': ISLa: 0.07122155700926669 | Parser: 0.16016799501085188
+Test 153: 'uUixP;zJT;I;V kp4jhRQn;O;18Wo7;fqZy6gY ': ISLa: 0.09268452199466992 | Parser: 0.04367595599615015
+Test 154: 'Oum;kt;|JTG|;|o|;|Xt| |UoZ34Mc|;JI;|6q|;e;rz Cdno;|Z|;|4|;Ks;|B| Nl;e;m;|J|;v ': ISLa: 0.12420535300043412 | Parser: 0.05729288900329266
+Test 155: '|P|;|W| I;|vmLH| |0|;|vW| acr;|JCsn| ': ISLa: 0.07500635599717498 | Parser: 0.04568490201199893
+Test 156: 'L;|3Lo|;|Nk|;E;Wo |E|;9;F;|Dy3|;|E| ': ISLa: 0.0747572350082919 | Parser: 0.042569270997773856
+Test 157: '|WY| |t| ': ISLa: 0.045692593994317576 | Parser: 0.04185203199449461
+Test 158: '|8| 5Cw8 e |i| |a7| ': ISLa: 0.06539193600474391 | Parser: 0.05059335500118323
+Test 159: '|cy|;2;|yElrZ|;x;AiKY |P|;bru;|NIBWx|;|Y2d|;ry b;2p;B;7sI;|6| h;|bdl|;|t|;|j|;T ': ISLa: 0.13987393499701284 | Parser: 0.05793211799755227
+Test 160: '|v|;|5| |q|;v |C|;f9u Bo;8g |w4|;e ': ISLa: 0.19012988000758924 | Parser: 0.04543011900386773
+Test 161: '|do|;ejO;|zM|;Y;3 dCv1QaC;el;fL7GHu;9bY;|a| ': ISLa: 0.09180236999236513 | Parser: 0.043638426999677904
+Test 162: 'S;|zq|;Vk;b Y7N;|0z|;jQ;k5t 1ZjnP;Zb;|M|;MM ': ISLa: 0.08725026300817262 | Parser: 0.043473703000927344
+Test 163: 'q u |s0| ': ISLa: 0.04556544899241999 | Parser: 0.037559813004918396
+Test 164: 'Py |1j| |1| npwhN |M| ': ISLa: 0.06247317099769134 | Parser: 0.04072925201035105
+Test 165: 'wt;|A1|;r;XNF 5;EB2;9M;b ': ISLa: 0.06661919500038493 | Parser: 0.03944518200296443
+Test 166: '|B|;|k|;HlU4z I;|KE|;|sf| |y|;|7|;|b| ': ISLa: 0.0720510630053468 | Parser: 0.042257356995833106
+Test 167: '|n|;qO7 m;L |ZTX|;|X| ': ISLa: 0.05877166899153963 | Parser: 0.03976024298754055
+Test 168: '|IP|;|5|;s |TXjL1d8|;B;|tt| ': ISLa: 0.06772458700288553 | Parser: 0.040729212007136084
+Test 169: 'm;G;DAA4;|h| |u|;|4C|;|S|;|6sZLy| ': ISLa: 0.08893594000255689 | Parser: 0.044136049997177906
+Test 170: '|3| |O8dLb| |y| o |3| ': ISLa: 0.06585220400302205 | Parser: 0.04794386601133738
+Test 171: '|onF|;|kol|;|mOurF|;p u;|R|;|6|;|n| ': ISLa: 0.19572885399975348 | Parser: 0.04092253700946458
+Test 172: '|D|;nb0MYLf;T J;|1|;vP |jr8dB|;Gl;|mbr| |V8x|;|t|;|M6| K;VvUF;TE ': ISLa: 0.10665570599667262 | Parser: 0.049453073006588966
+Test 173: '|d7|;|xQTvEwHXf|;|O|;|B| |GDU|;|5j8|;|K|;|bVk| ': ISLa: 0.08045463799498975 | Parser: 0.04164292699715588
+Test 174: '|a|;Elt;|YsO|;|A|;|b| d;EGno;C;2;XVa |U|;|Rl|;5;v;|bl| ': ISLa: 0.09272299699659925 | Parser: 0.044511120999231935
+Test 175: '|Awr| LH7 ': ISLa: 0.045976103996508755 | Parser: 0.03545622400997672
+Test 176: '|OY|;|T|;GUz S;|P|;|M| |ov|;wn2p;N x;OeF;|I| |aSa|;|1|;|aB| ': ISLa: 0.0953623060049722 | Parser: 0.04628435100312345
+Test 177: '|o|;xTj;|c| |w|;nRj;|b| ': ISLa: 0.05757611300214194 | Parser: 0.037994300000718795
+Test 178: 'e;|3AU|;|no| |5Rl|;|c|;|p| I;z0F5VimtU;wD |4|;H;tx B;x;zu ': ISLa: 0.20423150599526707 | Parser: 0.04826717000105418
+Test 179: 'mV nvR ': ISLa: 0.045691208011703566 | Parser: 0.03557308399467729
+Test 180: 'Pg;|5|;Q;2 n6kKhTv;q;FrAq;iC |HHK|;|W|;|q|;|y| AU6y;4GHV;Zk;|V| ': ISLa: 0.1063580699992599 | Parser: 0.04880196000158321
+Test 181: '2z;|u|;|d| |7d|;|a|;|w| NC;|FMkBetbYPK|;|afoNG| o;M7fLD;|Z| 8I;|x|;|kP| ': ISLa: 0.10921671299729496 | Parser: 0.047446979995584115
+Test 182: '|QE| |n| |r56Y| ': ISLa: 0.049544547000550665 | Parser: 0.03903950098901987
+Test 183: '|jD|;|Q|;|4| |9Q|;0Vj;|aUjV| |h|;D;NK |wD|;|l|;|o| w24;4;K ': ISLa: 0.09153126100136433 | Parser: 0.04678805200092029
+Test 184: '|b| |5dnis| ': ISLa: 0.0485119180084439 | Parser: 0.036210029997164384
+Test 185: 'EXVm;v;g;|n| x;|H7qZ|;6;|S| ': ISLa: 0.06432122499973048 | Parser: 0.03920778499741573
+Test 186: '|y|;F;|ZxV|;FR6s;|Z| |OZFji34q|;|UF|;|pa|;|6f|;|j| T;cfPt3;J;|2H|;|w| ': ISLa: 0.20819285399920773 | Parser: 0.04665681000915356
+Test 187: '|C|;|G|;g;A 1Kx;hh;x;|Yc4| |V|;wNWd;tVrtZDQ;b |Is|;d8s;|0H|;f HS;ho;h;|usVg| ': ISLa: 0.11863227300636936 | Parser: 0.050954102000105195
+Test 188: 'DP;UHd |H|;|EM| g;|YH| A;E ': ISLa: 0.06361682100396138 | Parser: 0.044980252991081215
+Test 189: '|nq|;|8|;|Lzn|;c;z |r|;B;auJ6;D7RCv;V7 |YujOezn40RfaqK|;|E|;Xpyo2t;h;|OK5cUA| |J|;|RYFUw|;|WW|;5;|xC| |I|;|gU6DyB|;n;|4o|;|fiNl| ': ISLa: 0.32218822999857366 | Parser: 0.13910143899556715
+Test 190: '2;|S25|;|l| |O|;|j|;yrh Q;|o|;|Bd| A;w;|SZQ| ': ISLa: 0.18996305100154132 | Parser: 0.09832764499878976
+Test 191: 'RS;g;x;7T |d|;k8;|9|;v |Af|;|5|;he;|5r| |l|;|u|;|9|;|D| S7;bA;e;R ': ISLa: 0.452787062007701 | Parser: 0.11217422600020654
+Test 192: '|m| 2m ': ISLa: 0.10279295200598426 | Parser: 0.08289172100194264
+Test 193: '|K|;zB fg;Qv ': ISLa: 0.1135800750053022 | Parser: 0.08715332200517878
+Test 194: 'a;fCciwh;Y;u;2 M;|Q|;MgB;yB;|mz| |UO|;jS;E;|L|;9W2z ': ISLa: 0.22389092900266405 | Parser: 0.10395147300732788
+Test 195: 'm;|S| |V|;|M9tz| yyp;|l| |f|;|Ye| |2|;|H| ': ISLa: 0.10711384000023827 | Parser: 0.04337009199662134
+Test 196: 'P;|S|;Qm;Uw;0b vmvk8;|1|;7K;|X|;|t| ': ISLa: 0.07408589399710763 | Parser: 0.042926492998958565
+Test 197: '6;B;n3aH;x |N|;Nq;z8AP;X sz5uwny;y7y;|Vx0|;OG OHhuL4;E9VJLk;|n|;|5| ': ISLa: 0.11833989100705367 | Parser: 0.04854415800946299
+Test 198: '|5|;|A|;|CLsYSU|;|KbAbT| T;w;Ao;|UG| 3;S;lJ;2X8z ': ISLa: 0.08749479199468624 | Parser: 0.04435640100564342
+Test 199: 'M;|F| Z;v E;|y4| RH0;c ': ISLa: 0.06240877399977762 | Parser: 0.039975170002435334
+Test 200: '|5d|;5;|uB|;|r|;|Lsyn| uy;B;GwgparXtU;se95;|ZzA| kHyeTy5;MzU;r;|kXlj|;|e| v;v;2;X;B ': ISLa: 0.24528865299362224 | Parser: 0.0514417520025745
+Test 201: '|HV|;|Gm| |8|;|FE| ': ISLa: 0.05309283500537276 | Parser: 0.03765907399065327
+Test 202: 's;cK;A |I|;|q|;|ZycvEY7| |Q|;zUS;B 9H;j;|s| ': ISLa: 0.0823314880108228 | Parser: 0.04366510499676224
+Test 203: '81H;|NVE|;|4k|;A o;z;|Dp|;|34| |jdbE|;|pgc|;G;D ': ISLa: 0.08482634500251152 | Parser: 0.043573792005190626
+Test 204: '|lT6|;59;|ep|;xxsS4;j 2;Iz3W;l;Osqxf;d ': ISLa: 0.10028044099453837 | Parser: 0.04171490800217725
+Test 205: 'd;l;S0;c HCvLa3;K;s;e ': ISLa: 0.06397587100218516 | Parser: 0.038623833010206
+Test 206: '|oG|;|i|;|Jq| |5Qr6|;a;1K p;L;9c73 ': ISLa: 0.07263128900376614 | Parser: 0.04122383899812121
+Test 207: '|tvgX| YOD |K| |n| ': ISLa: 0.05763959798787255 | Parser: 0.03875353999319486
+Test 208: 'n;D;|8J9| |R|;7;c |TjlP5|;Z;Z |CA|;k;|8mOB| |W|;kR;e ': ISLa: 0.19874798999808263 | Parser: 0.04661412400309928
+Test 209: '|80K1| |GNk| T ': ISLa: 0.07424896000884473 | Parser: 0.03931203100364655
+Test 210: 'mS;beI r;5wT hy;|W0| y0;5 ': ISLa: 0.06616317099542357 | Parser: 0.04325403200346045
+
+INVALID RESULTS:
+Test 1: 'LtUAh;D i ': ISLa: 0.06263752900122199 | Parser: 0.051338624994968995
+Test 2: 'P5fyZ84mu;Bjgn x ': ISLa: 0.07772618700983003 | Parser: 0.0526134530082345
+Test 3: '1 q;e ': ISLa: 0.056949713005451486 | Parser: 0.05002394899202045
+Test 4: 'o l;YH ': ISLa: 0.05928753600164782 | Parser: 0.052787694992730394
+Test 5: '|8| IpGF;aR N ': ISLa: 0.06633069600502495 | Parser: 0.051986356993438676
+Test 6: 'Q0w zE6;bcVkv2m M;JD;U X ': ISLa: 0.08488276098796632 | Parser: 0.05497942199872341
+Test 7: 'TO 9;WS ': ISLa: 0.059734253998612985 | Parser: 0.05284746500547044
+
+STATISTICS:
+AVERAGE TIME valid ISLa: 0.10697317883390324
+MEDIAN TIME valid ISLa: 0.08310917800554307
+AVERAGE TIME invalid ISLa: 0.06679266800139365
+MEDIAN TIME invalid ISLa: 0.06263752900122199
+
+AVERAGE TIME valid parser: 0.052243898890377574
+MEDIAN TIME valid parser: 0.04408127699571196
+AVERAGE TIME invalid parser: 0.05236813799794098
+MEDIAN TIME invalid parser: 0.0526134530082345

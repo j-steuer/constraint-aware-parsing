@@ -1,0 +1,14 @@
+from isla.language import parse_isla, Formula
+from isla.isla_predicates import STANDARD_STRUCTURAL_PREDICATES, STANDARD_SEMANTIC_PREDICATES
+import isla.isla_shortcuts as sc
+
+def parse_isla_formula(inp,
+                       grammar, 
+                       structural_predicates=STANDARD_STRUCTURAL_PREDICATES,
+                       semantic_predicates=STANDARD_SEMANTIC_PREDICATES):
+    if inp is None:
+        return sc.true()
+    if isinstance(inp, Formula):
+        return inp
+    
+    return parse_isla(inp, grammar, structural_predicates, semantic_predicates)
